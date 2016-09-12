@@ -19,6 +19,12 @@
 .mgTop {
 	margin-top: 5%;
 }
+.mgTop10 {
+	margin-top: 10%;
+}
+.mgBot {
+	margin-bottom: 10%;
+}
 /*header*/
 
 .bgColorGre{
@@ -177,4 +183,30 @@ hr {
 ul.iconos li {
 	display: inline-block;
 	padding-right: 2%;
+}
+/*price*/
+.cuadroBorde {
+	border: solid green 1px;
+}
+.bg-brown {
+	background-color: brown;
+	padding: 2%;
+	margin-bottom: 0 !important;
+}
+.bg-green {
+	background-color: green;
+	padding: 2%;
+	margin-top: 0 !important;
+}
+.bg-white {
+	background-color: white;
+	padding: 2%;
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+span {
+	font-size: 300%;
+}
+.btnGrey {
+	background-color: grey;
 }
