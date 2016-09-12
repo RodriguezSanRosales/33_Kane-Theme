@@ -1,1 +1,180 @@
 /*main*/
+
+* {
+	font-family: 'Roboto';
+}
+/*acomodo*/
+.pdBot {
+	padding-bottom: 2%;
+}
+.pdBot10 {
+	padding-bottom: 10%;
+}  
+.pdTop {
+	padding-top: 5%;
+}
+.pdTop10 {
+	padding-top: 10%;
+}
+.mgTop {
+	margin-top: 5%;
+}
+/*header*/
+
+.bgColorGre{
+	background-color: green;
+	
+}
+.colorWhite {
+	color: white;
+}
+.sizeBig {
+	font-size: 250%;
+}
+
+/*seccion titulo sup.*/
+.fondoTitulo {
+	background-image: url(../img/carousel-bg.jpg);
+	background-size: 100%;
+
+}
+/*seccion paleta colores*/
+
+.cuaSize {
+	width: 100%;
+	height: 80px;
+}
+.cuasizemid {
+	width: 140%;
+	height: 80px;
+}
+.color69 {
+	background-color: #69D2E7;
+}
+.colorA7 {
+	background-color: #A7DBDB;
+}
+.colorED {
+	background-color: #EDE4CC;
+}
+.colorF3 {
+	background-color: #F38630;
+}
+.colorFA {
+	background-color: #FA6900;
+}
+/**/
+.colorE9 {
+	background-color: #E94C6F;
+}
+.color54 {
+	background-color: #542733;
+}
+.color5A {
+	background-color: #5A6A62;
+}
+.colorC6 {
+	background-color: #C6D5CD;
+}
+.colorFD {
+	background-color: #FDF200;
+}
+/**/
+.colorDB {
+	background-color: #DB3340;
+}
+.colorE8 {
+	background-color: #E8B71A;
+}
+.colorF7 {
+	background-color: #F7EAC8;
+}
+.color1F {
+	background-color: #1FDA9A;
+}
+.color28 {
+	background-color: #28ABE3;
+}
+/**/
+.color58 {
+	background-color: #588C73;
+}
+.colorF2 {
+	background-color: #F2E394;
+}
+.colorF2A {
+	background-color: #F2AE72;
+}
+.colorD9 {
+	background-color: #D96459;
+}
+.color8C4 {
+	background-color: #8C403B;
+}
+/**/
+.colorD0 {
+	background-color: #D0C91F;
+}
+.color85 {
+	background-color: #85C4B9;
+}
+.color00 {
+	background-color: #008BBA;
+}
+.colorDF {
+	background-color: #DF514C;
+}
+.colorDC4 {
+	background-color: #DC403B;
+}
+/*seccion About us*/
+.bg-blue {
+	background-color: #0B3861;
+	padding: 2%;
+}
+hr {
+	width: 25%;
+}
+/*barras*/
+.barGrey {
+	background-color: white;
+	width: 100%;
+	height: 6px;
+	padding: 1px;
+}
+.barOrg {
+	background-color: orange;
+	width: 90%;
+	height: 4px;
+}
+.barOrg85 {
+	width: 85%;
+}
+.barOrg55 {
+    width: 55%;
+}
+.barOrg65 {
+	width: 65%;
+}.barOrg75 {
+	width: 75%;
+}
+/*seccion What*/
+.bgGreen {
+	background-color: green;
+}
+.fondoIcono {
+	background-image: url(../img/icon-bg.png);
+	background-repeat: no-repeat;
+	background-size: 50%;
+	height: 40px;
+	width: 50%;
+}
+.texmid {
+	font-size: 150%;
+}
+/*OUR awesome*/
+/*iconos*/
+ul.iconos li {
+	display: inline-block;
+	padding-right: 2%;
+}
