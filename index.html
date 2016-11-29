@@ -12,81 +12,51 @@
         <link href="./css/main.css" rel="stylesheet">
         <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
         <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-  <script src="http://notoyontoy.site40.net/Js/jquery.infinitecarousel3.min.js"></script>
-  <script type="text/javascript" src="http://notoyontoy.site40.net/Js/easing.js"></script>
-  <script>
-     var a = jQuery.noConflict();
-        a(document).ready(function() {
-        a('#carousel').infiniteCarousel({
-           transitionSpeed:12000,     /*Tiempo de avance de las imagenes*/
-           displayTime: 2000,   /* El tiempo en milisegundos para hacer pausa*/
-           thumbnailType: 'false',
-           customClass: 'myCarousel',
-           easeLeft: 'linear',
-           easeRight:'linear',
-           inView: 1,    /*Imagenes mostradas*/
-           advance: true,
-           autoPilot: true,
-           displayProgressRing: true,    /*muestra grafica del tiempo que pausa la imagen*/
-});
- });
-</script>
-    </head>
     <body>
         <header>
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-lg-12">
-                    <nav class="navbar navbar-default bgColorGre"><!--navegador-->
-                        <div class="container-fluid">
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
-                                    <span class="sr-only">Menu</span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                                <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a>
-                            </div> 
-                            <div class="collapse navbar-collapse" id="navbar1" >
-                                <ul class="nav navbar-nav navbar-right colorWhite"><!--navegador-->
-                                    <li><a href="#"><p class="colorWhite">About</p></a></li>
-                                    <li><a href="#"><p class="colorWhite">Service</p></a></li>
-                                    <li><a href="#"><p class="colorWhite">Team</p></a></li>
-                                    <li><a href="#"><p class="colorWhite">Clients</p></a></li>
-                                    <li><a href="#"><p class="colorWhite">Facts</p></a></li>
-                                    <li><a href="#"><p class="colorWhite">Contact</p></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </header>
-        <section><!--sección de título con imagen-->
             <div class="container-fluid">
-                <div class="row text-center">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <ul id="carousel">
-                            <li><img width="100%" height="215" alt="" class="img-responsive" src="img/carousel-bg.jpg"/></li>
-                            <li><img width="100%" height="215" alt="" class="img-responsive" src="img/carousel-bg.jpg"/></li>
-                            <li><img width="100%" height="215" alt="" class="img-responsive" src="img/carousel-bg.jpg"/></li>
-                            <li><img width="100%" height="215" alt="" class="img-responsive" src="img/carousel-bg.jpg"/></li>
-                        </ul>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-lg-12">
+                        <nav class="navbar navbar-default bgColorGre"><!--navegador-->
+                            <div class="container-fluid">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
+                                        <span class="sr-only">Menu</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"></a>
+                                </div> 
+                                <div class="collapse navbar-collapse" id="navbar1" >
+                                    <ul class="nav navbar-nav navbar-right colorWhite"><!--navegador-->
+                                        <li><a href="#about"><p class="colorWhite">About</p></a></li>
+                                        <li><a href="#service"><p class="colorWhite">Service</p></a></li>
+                                        <li><a href="#team"><p class="colorWhite">Team</p></a></li>
+                                        <li><a href="#clients"><p class="colorWhite">Clients</p></a></li>
+                                        <li><a href="#facts"><p class="colorWhite">Facts</p></a></li>
+                                        <li><a href="#contact"><p class="colorWhite">Contact</p></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
                     </div>
                 </div>
+            </div>    
+        </header>
+        <section class="fondoTitulo"><!--sección de título con imagen-->
+            <div class="container">
                 <div class="row"><!--título con parrafo-->
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <div class="fondoTitulo text-center">
-                            <h1 class="colorWhite">BEAUTIFUL COLOR PALETTES FOR TOUR NEXT WEB PROJECT</h1>
-                            <p class="colorWhite">Choosing the right color scheme is essential to your weebsite's success. Your layout and other design choices-including font-should be developed in concert with your color scheme to ensure readability, cohesiveness and beaty in the final product.</p>
-                        </div>
+                        <h1 class="colorWhite text-center pdLados">BEAUTIFUL COLOR PALETTES FOR TOUR NEXT WEB PROJECT</h1>
+                        <p class="colorWhite text-center pdLados">Choosing the right color scheme is essential to your weebsite's success. Your layout and other design choices-including font-should be developed in concert with your color scheme to ensure readability, cohesiveness and beaty in the final product.</p>
                     </div>
                 </div>        
             </div>
         </section>
         <section><!--seccion de paleta de colores-->
-            <div class="container">
+            <div class="container pdLados">
                 <div class="row text-center">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <p class="sizeBig pdTop">PICK YOUR COLOR PALETTE</p><!--título de paleta de colores-->
@@ -94,98 +64,98 @@
                     </div>
                 </div>
                 <div class="row text-center pdBot"><!--1era fila de colores-->
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><!--1er color-->
-                        <div class="color69 cuaSize">#69D2E7</div>
+                    <div class="col-xs-12 col-sm-3 col-md-2 col-md-offset-1"><!--1er color-->
+                        <div class="color69 cuasizemid">#69D2E7</div>
                     </div>
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><!--2do color-->
+                    <div class="col-xs-12 col-sm-3 col-md-2"><!--2do color-->
                         <div class="colorA7 cuasizemid">#A7DBDB</div>
                     </div>
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><!--3er color-->
+                    <div class="col-xs-12 col-sm-3 col-md-2"><!--3er color-->
                         <div class="colorED cuasizemid">#EDE4CC</div>
                     </div>
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><!--4to color-->
+                    <div class="col-xs-12 col-sm-3 col-md-2"><!--4to color-->
                         <div class="colorF3 cuasizemid">#F38630</div>
                     </div>
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><!--5to color-->
+                    <div class="hidden-xs hidden-sm col-md-2"><!--5to color-->
                         <div class="colorFA cuaSize">#FA6900</div>
                     </div>
                 </ul>    
                 </div>
                 <div class="row text-center pdBot"><!--2da fila de colores-->
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><!--1er color-->
-                        <div class="colorE9 cuaSize">#E94C6F</div>
+                    <div class="hidden-xs col-sm-3 col-md-2 col-md-offset-1"><!--1er color-->
+                        <div class="colorE9 cuasizemid">#E94C6F</div>
                     </div>
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><!--2do color-->
+                    <div class="hidden-xs col-sm-3 col-md-2"><!--2do color-->
                         <div class="color54 cuasizemid">#542733</div>
                     </div>
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><!--3er color-->
+                    <div class="hidden-xs col-sm-3 col-md-2"><!--3er color-->
                         <div class="color5A cuasizemid">#5A6A62</div>
                     </div>
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><!--4to color-->
+                    <div class="hidden-xs col-sm-3 col-md-2"><!--4to color-->
                         <div class="colorC6 cuasizemid">#C6D5CD</div>
                     </div>
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><!--5to color-->
+                    <div class="hidden-xs hidden-sm col-md-2"><!--5to color-->
                         <div class="colorFD cuaSize">#FDF200</div>
                     </div>  
                 </div>
                 <div class="row text-center pdBot"><!--3era fila de colores-->
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><!--1er color-->
-                        <div class="colorDB cuaSize">#DB3340</div>
+                    <div class="hidden-xs hidden-sm col-md-2 col-md-offset-1"><!--1er color-->
+                        <div class="colorDB cuasizemid">#DB3340</div>
                     </div>
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><!--2do color-->
+                    <div class="hidden-xs hidden-sm col-md-2"><!--2do color-->
                         <div class="colorE8 cuasizemid">#E8B71A</div>
                     </div>
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><!--3er color-->
+                    <div class="hidden-xs hidden-sm col-md-2"><!--3er color-->
                         <div class="colorF7 cuasizemid">#F7EAC8</div>
                     </div>
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><!--4to color-->
+                    <div class="hidden-xs hidden-sm col-md-2"><!--4to color-->
                         <div class="color1F cuasizemid">#1FDA9A</div>
                     </div>
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><!--5to color-->
+                    <div class="hidden-xs hidden-sm col-md-2"><!--5to color-->
                         <div class="color28 cuaSize">#28ABE3</div>
                     </div>
                 </div>
                 <div class="row text-center pdBot"><!--4ta fila de colores-->
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><!--1er color-->
-                        <div class="color58 cuaSize">#588C73</div>
+                    <div class="hidden-xs col-sm-3 col-md-2 col-md-offset-1"><!--1er color-->
+                        <div class="color58 cuasizemid">#588C73</div>
                     </div>
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><!--2do color-->
+                    <div class="hidden-xs col-sm-3 col-md-2"><!--2do color-->
                         <div class="colorF2 cuasizemid">#F2E394</div>
                     </div>
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><!--3er color-->
+                    <div class="hidden-xs col-sm-3 col-md-2"><!--3er color-->
                         <div class="colorF2A cuasizemid">#F2AE72</div>
                     </div>
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><!--4to color-->
+                    <div class="hidden-xs col-sm-3 col-md-2"><!--4to color-->
                         <div class="colorD9 cuasizemid">#D96459</div>
                     </div>
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><!--5to color-->
+                    <div class="hidden-xs hidden-sm col-md-2"><!--5to color-->
                         <div class="color8C4 cuaSize">#8C403B</div>
                     </div>
                 </div>
                 <div class="row text-center pdBot"><!--5ta fila de colores-->
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><!--1er color-->
-                        <div class="colorD0 cuaSize">#D0C91F</div>
+                    <div class="hidden-xs col-sm-3 col-md-2 col-md-offset-1"><!--1er color-->
+                        <div class="colorD0 cuasizemid">#D0C91F</div>
                     </div>
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><!--2do color-->
+                    <div class="hidden-xs col-sm-3 col-md-2"><!--2do color-->
                         <div class="color85 cuasizemid">#85C4B9</div>
                     </div>
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><!--3er color-->
+                    <div class="hidden-xs col-sm-3 col-md-2"><!--3er color-->
                         <div class="color00 cuasizemid">#008BBA</div>
                     </div>
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><!--4to color-->
+                    <div class="hidden-xs col-sm-3 col-md-2"><!--4to color-->
                         <div class="colorDF cuasizemid">#DF514C</div>
                     </div>
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><!--5to color-->
+                    <div class="hidden-xs hidden-sm col-md-2"><!--5to color-->
                         <div class="colorDC4 cuaSize">#DC403B</div>
                     </div>
                 </div>
             </div>
         </section>
         <section class="bg-blue mgTop"><!--sección About us-->
-            <div class="container">
+            <div class="container pdLados">
                 <div class="row text-center colorWhite pdTop"><!--título About us-->
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <p class="sizeBig">ABOUT US</p>
+                        <a name="about"></a><p class="sizeBig">ABOUT US</p>
                         <hr>
                     </div>
                 </div>
@@ -193,29 +163,29 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                         <div class="row"><!--parrafos-->
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nobis, est officia. Explicabo repellat facere tempore aliquid dolore accusamus sit esse quaerat, aspernatur atque architecto voluptatum animi ex reprehenderit sed!</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam nemo, alias at animi, blanditiis itaque. Voluptatum libero eum explicabo consectetur, suscipit hic eaque assumenda sint tempora facilis praesentium odio odit!</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nobis, est officia. Explicabo repellat facere tempore aLorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nobis, est officia. Explicabo repellat facere tempore aliquid dolore accusamus sit esse quaerat, aspernatur atque architecto voluptatum animi ex reprehenderit sedliquid dolore accusamus sit esse quaerat, aspernatur atque architecto voluptatum animi ex reprehenderit sed!</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam nemo, alias at animi, blandipsum dolor sit amet, consectetur adipisicing elit. Veniam nemo, alias at animi, blanditiis itaque. Volupttiis itaque. Voluptatum libero eum explicabo consectetur, suscipit hic eaque assumenda sint tempora facilis praesentium odio odit!</p>
                             </div>
                         </div>
-                        <div class="row pdTop"><!--barras de html,css ,js,php,photo.illu.-->
+                        <div class="row pdTop10"><!--barras de html,css ,js,php,photo.illu.-->
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><!--barras-->
                                 <div class="barGrey">
                                     <div class="barOrg"></div>
                                 </div>
                                 <p>HTML</p>
-                                <div class="barGrey">
+                                <div class="barGrey mgTop2">
                                     <div class="barOrg85 barOrg"></div>
                                 </div>    
                                 <p>CSS</p>
-                                <div class="barGrey">
+                                <div class="barGrey mgTop2">
                                     <div class="barOrg barOrg55"></div>
                                 </div>
                                 <p>JAVASCRIPT</p>
-                                <div class="barGrey">
+                                <div class="barGrey mgTop2">
                                     <div class="barOrg barOrg65"></div>
                                 </div>
                                 <p>PHP</p>
-                                <div class="barGrey">
+                                <div class="barGrey mgTop2">
                                     <div class="barOrg barOrg75"></div>
                                 </div>
                                 <p>PHOTOSHOP/ILLUSTRATOR</p>
@@ -223,54 +193,58 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <a class="opacidad img-responsive" src="img/agency-img3.jpg"><img src="img/agency-img3.jpg" class="img-responsive"></a><!--efecto opacidad-->
+                        <a class="opacidad" src="img/agency-img3.jpg"><img src="img/agency-img3.jpg" class="img-responsive imgTamAbout"></a><!--efecto opacidad-->
                         <!--img agency en ABOUT-->
                     </div>
                 </div>
             </div>            
         </section>
         <section class="bgGreen"><!--seccón WHAT WE DO-->
-            <div class="container">
+            <div class="container pdLados">
                 <div class="row text-center colorWhite">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <p class="sizeBig pdTop10">WHAT WE DO</p><!--título WHAT-->
+                        <a name="service"></a><p class="sizeBig pdTop10">WHAT WE DO</p><!--título WHAT-->
                         <hr>
                         <p>Consectetur adipisicing elit. Possimus amet, rerum laudantium aut odio mollitia</p>
                     </div>
                 </div>
                 <div class="row text-center colorWhite pdTop"><!--fila de imagenes con texto-->
                     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><!--Web Design-->
-                        <div class="text-center fondoHold">
-                            <div class="fondoIcono"><!--fondo icon-->
-                                <img src="img/icons/webdesign.png" alt="webdesign"><!--1er icono-->
+                        <div class="text-center hoverbackg pad5">
+                            <div class="fondoIcono mgL25"><!--fondo icon-->
+                                <img src="img/icons/webdesign.png" class="imgrotate" alt="webdesign"><!--1er icono-->
                             </div>
                             <p class="texmid pdTop">Web Design</p>
                             <p class="pdLados">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, atque, placeat facere maiores animi, nihil ipsam sint, distinctio repellendus reprehenderit eaque?</p> 
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><!--Graphic Design-->
-                        <div class="fondoIcono"><!--fondo icon-->
-                            <img src="img/icons/graphicdesign.png" alt="graphicdesign"><!--2do icono-->
-                        </div>    
-                        <p class="texmid pdTop">Graphic Design</p>
-                        <p class="pdLados">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, atque, placeat facere maiores animi, nihil ipsam sint, distinctio repellendus reprehenderit eaque?</p>
+                        <div class="text-center hoverbackg pad5">
+                            <div class="fondoIcono mgL25"><!--fondo icon-->
+                                <img src="img/icons/graphicdesign.png" class="imgrotate" alt="graphicdesign"><!--2do icono-->
+                            </div>    
+                            <p class="texmid pdTop">Graphic Design</p>
+                            <p class="pdLados">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, atque, placeat facere maiores animi, nihil ipsam sint, distinctio repellendus reprehenderit eaque?</p>
+                        </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><!--Mobile App-->
-                        <div class="fondoIcono"><!--fondo icon-->
-                            <img src="img/icons/mobile.png" alt="mobile"><!--3er icono-->
+                        <div class="text-center hoverbackg pad5">
+                            <div class="fondoIcono mgL25"><!--fondo icon-->
+                                <img src="img/icons/mobile.png" class="imgrotate" alt="mobile"><!--3er icono-->
+                            </div>    
+                            <p class="texmid pdTop">Mobile App</p>
+                            <p class="pdLados">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, atque, placeat facere maiores animi, nihil ipsam sint, distinctio repellendus reprehenderit eaque?</p>
                         </div>    
-                        <p class="texmid pdTop">Mobile App</p>
-                        <p class="pdLados">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, atque, placeat facere maiores animi, nihil ipsam sint, distinctio repellendus reprehenderit eaque?</p>
                     </div>
                 </div>
-                <div class="row text-center pdBot">
+                <div class="row text-center pdBot mgTop">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <button class="btn">HIRE US NOW!</button><!--BOTON hire-->
                     </div>
                 </div>
                 <div class="row text-center colorWhite"><!--título our awesome team con parrafo-->
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <p class="pdTop10 sizeBig text-center">OUR AWESOME TEAM</p>
+                        <a name="team"></a><p class="pdTop10 sizeBig text-center">OUR AWESOME TEAM</p>
                         <hr>
                         <p>Consectetur adipisicing elit. Eligendi mollitia consequuntur</p>
                     </div>
@@ -281,7 +255,7 @@
                         <p class="colorWhite pdBot pdTop">Jane Doe</p><!--nombre-->
                         <p class="pdBot">CEO-Founder</p><!--CEO-->
                         <p class="colorWhite">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi mollitia consequuntur neque laudantium</p><!--info-->
-                        <ul class="iconos pdBot10"><!--iconos redes sociales-->
+                        <ul class="iconos pdBot10 mgR20"><!--iconos redes sociales-->
                             <li><a href="#"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a></li>
                             <li><a href="#"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a></li>
                             <li><a href="#"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a></li>
@@ -294,7 +268,7 @@
                         <p class="colorWhite pdBot pdTop">Jane Doe</p><!--nombre-->
                         <p class="pdBot">CEO-Founder</p><!--CEO-->
                         <p class="colorWhite pdBot">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi mollitia consequuntur neque laudantium</p><!--info-->
-                        <ul class="iconos pdBot10"><!--iconos redes sociales-->
+                        <ul class="iconos pdBot10 mgR20"><!--iconos redes sociales-->
                             <li><a href="#"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a></li>
                             <li><a href="#"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a></li>
                             <li><a href="#"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a></li>
@@ -307,7 +281,7 @@
                         <p class="colorWhite pdBot pdTop">Jane Doe</p><!--nombre-->
                         <p class="pdBot">CEO-Founder</p><!--CEO-->
                         <p class="colorWhite pdBot">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi mollitia consequuntur neque laudantium</p><!--info-->
-                        <ul class="iconos pdBot10"><!--iconos redes sociales-->
+                        <ul class="iconos pdBot10 pdR3 mgR20"><!--iconos redes sociales-->
                             <li><a href="#"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a></li>
                             <li><a href="#"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a></li>
                             <li><a href="#"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a></li>
@@ -320,7 +294,7 @@
                         <p class="colorWhite pdBot pdTop">Jane Doe</p><!--nombre-->
                         <p class="pdBot">CEO-Founder</p><!--CEO-->
                         <p class="colorWhite pdBot">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi mollitia consequuntur neque laudantium</p><!--info-->
-                        <ul class="iconos pdBot10"><!--iconos redes sociales-->
+                        <ul class="iconos pdBot10 pdR3 mgR20"><!--iconos redes sociales-->
                             <li><a href="#"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a></li>
                             <li><a href="#"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a></li>
                             <li><a href="#"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a></li>
@@ -332,7 +306,7 @@
             </div>
         </section>
         <section class="bg-blue"><!--sección de BEST price-->
-            <div class="container">
+            <div class="container pdLados">
                 <div class="row text-center colorWhite pdTop10">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <p class="sizeBig">BEST PRICE GURANTEED</p><!--título BEST PRICE-->
@@ -342,81 +316,89 @@
                 </div>
                 <div class="row mgTop">
                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3"><!--1er price STARTER-->
-                        <div class="cuadroBorde mgTop"><!--borde verde-->
-                            <div class="row text-center">
-                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                    <p class="bg-brown colorWhite texmid">STARTER</p>
-                                    <div class="bg-green">
-                                        <p class="colorWhite"><span>$10</span>/MO</p>
-                                        <p class="colorWhite">1 month FREE trial</p>
+                        <div class="moveTopHov">
+                            <div class="cuadroBorde mgTop"><!--borde verde-->
+                                <div class="row text-center">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                        <p class="bg-brown colorWhite texmid">STARTER</p>
+                                        <div class="bg-green">
+                                            <p class="colorWhite"><span>$10</span>/MO</p>
+                                            <p class="colorWhite">1 month FREE trial</p>
+                                        </div>
+                                        <p class="bg-brown colorWhite">2 GB Disk Space</p>
+                                        <p class="bg-white">10 GB Bandwith</p>
+                                        <p class="bg-brown colorWhite">1 Databases</p>
+                                        <p class="bg-white">Daily Backup</p>
+                                        <p class="bg-brown colorWhite">1 Domains</p>
+                                        <p class="bg-white">24h Support</p>
+                                        <button class="btnGrey colorWhite mgBot mgTop10">Sign Up</button><!--boton-->
                                     </div>
-                                    <p class="bg-brown colorWhite">2 GB Disk Space</p>
-                                    <p class="bg-white">10 GB Bandwith</p>
-                                    <p class="bg-brown colorWhite">1 Databases</p>
-                                    <p class="bg-white">Daily Backup</p>
-                                    <p class="bg-brown colorWhite">1 Domains</p>
-                                    <p class="bg-white">24h Support</p>
-                                    <button class="btnGrey colorWhite mgBot mgTop10">Sign Up</button><!--boton-->
                                 </div>
                             </div>
-                        </div>
+                        </div>    
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3"><!--2do price BASIC-->
-                        <div class="cuadroBorde mgTop"><!--borde verde-->
-                            <div class="row text-center">
-                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                    <p class="bg-brown colorWhite texmid">BASIC</p>
-                                    <div class="bg-green">
-                                        <p class="colorWhite"><span>$15</span>/MO</p>
-                                        <p class="colorWhite">1 month FREE trial</p>
+                        <div class="moveTopHov">
+                            <div class="cuadroBorde mgTop"><!--borde verde-->
+                                <div class="row text-center">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                        <p class="bg-brown colorWhite texmid">BASIC</p>
+                                        <div class="bg-green">
+                                            <p class="colorWhite"><span>$15</span>/MO</p>
+                                            <p class="colorWhite">1 month FREE trial</p>
+                                        </div>
+                                        <p class="colorWhite">5 GB Disk Space</p>
+                                        <p class="bg-white">20 GB Bandwith</p>
+                                        <p class="colorWhite">5 Databases</p>
+                                        <p class="bg-white">Daily Backup</p>
+                                        <p class="colorWhite">5 Domains</p>
+                                        <p class="bg-white">24h Support</p>
+                                        <button class="colorWhite mgBot btnGrey mgTop10">Sign Up</button><!--boton-->
                                     </div>
-                                    <p class="colorWhite">5 GB Disk Space</p>
-                                    <p class="bg-white">20 GB Bandwith</p>
-                                    <p class="colorWhite">5 Databases</p>
-                                    <p class="bg-white">Daily Backup</p>
-                                    <p class="colorWhite">5 Domains</p>
-                                    <p class="bg-white">24h Support</p>
-                                    <button class="colorWhite mgBot btnGrey mgTop10">Sign Up</button><!--boton-->
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3"><!--3er price FEATURE-->
-                        <div class="cuadroBorde mgTop"><!--borde verde-->
-                            <div class="row text-center">
-                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                    <p class="bg-brown colorWhite texmid">FEATURE</p>
-                                    <div class="bg-green colorWhite">
-                                        <p class="colorWhite"><span>$25</span>/MO</p>
-                                        <p>1 month FREE trial</p>
+                        <div class="moveTopHov">
+                            <div class="cuadroBorde mgTop"><!--borde verde-->
+                                <div class="row text-center">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                        <p class="bg-brown colorWhite texmid">FEATURE</p>
+                                        <div class="bg-green colorWhite">
+                                            <p class="colorWhite"><span>$25</span>/MO</p>
+                                            <p>1 month FREE trial</p>
+                                        </div>
+                                        <p class="colorWhite">10 GB Disk Space</p>
+                                        <p class="bg-white">30 GB Bandwith</p>
+                                        <p class="colorWhite">10 Databases</p>
+                                        <p class="bg-white">Daily Backup</p>
+                                        <p class="colorWhite">10 Domains</p>
+                                        <p class="bg-white">24h Support</p>
+                                        <button class="colorWhite mgBot btnGrey mgTop10">Sign Up</button><!--boton-->
                                     </div>
-                                    <p class="colorWhite">10 GB Disk Space</p>
-                                    <p class="bg-white">30 GB Bandwith</p>
-                                    <p class="colorWhite">10 Databases</p>
-                                    <p class="bg-white">Daily Backup</p>
-                                    <p class="colorWhite">10 Domains</p>
-                                    <p class="bg-white">24h Support</p>
-                                    <button class="colorWhite mgBot btnGrey mgTop10">Sign Up</button><!--boton-->
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3"><!--4to price PROFESSIONAL-->
-                        <div class="cuadroBorde mgTop"><!--borde verde-->
-                            <div class="row text-center">
-                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                    <p class="colorWhite texmid"> PROFESSIONAL</p>
-                                    <div class="bg-green colorWhite">
-                                        <p><span>$35</span>/MO</p>
-                                        <p>1 month FREE trial</p>
+                        <div class="moveTopHov">
+                            <div class="cuadroBorde mgTop"><!--borde verde-->
+                                <div class="row text-center">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                        <p class="colorWhite texmid"> PROFESSIONAL</p>
+                                        <div class="bg-green colorWhite">
+                                            <p><span>$35</span>/MO</p>
+                                            <p>1 month FREE trial</p>
+                                        </div>
+                                        <p class="colorWhite">15 GB Disk Space</p>
+                                        <p class="bg-white">40 GB Bandwith</p>
+                                        <p class="colorWhite">15 Databases</p>
+                                        <p class="bg-white">Daily Backup</p>
+                                        <p class="colorWhite">15 Domains</p>
+                                        <p class="bg-white">24h Support</p>
+                                        <button class="mgBot btnGrey colorWhite mgTop10">Sign Up</button><!--boton-->
                                     </div>
-                                    <p class="colorWhite">15 GB Disk Space</p>
-                                    <p class="bg-white">40 GB Bandwith</p>
-                                    <p class="colorWhite">15 Databases</p>
-                                    <p class="bg-white">Daily Backup</p>
-                                    <p class="colorWhite">15 Domains</p>
-                                    <p class="bg-white">24h Support</p>
-                                    <button class="mgBot btnGrey colorWhite mgTop10">Sign Up</button><!--boton-->
                                 </div>
                             </div>
                         </div>
@@ -424,7 +406,7 @@
                 </div>
                 <div class="row text-center colorWhite"><!--WHAT OUR CLIENTS SAY-->
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <p class="sizeBig pdTop10">WHAT OUR CLIENTS SAY</p><!--título-->
+                        <a name="clients"></a><p class="sizeBig pdTop10">WHAT OUR CLIENTS SAY</p><!--título-->
                         <hr>
                         <p>Dolorum, magni accusantium voluptates aliquid est,</p>
                         <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates hic praesentium reprehenderit dolorum vitae beatae accusamus. Alias cumque velit voluptate sint quidem recusandae laudantium omnis, accusamus, mollitia aliquid deleniti quam.</blockquote><!--1era cita-->
@@ -436,7 +418,7 @@
                     </div>
                     <div class="row text-center colorWhite"><!--GET IN TOUCH-->
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                            <p class="sizeBig pdTop10">GET IN TOUCH</p>
+                            <a name="facts"></a><p class="sizeBig pdTop10">GET IN TOUCH</p>
                             <hr>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             <form>
@@ -476,31 +458,35 @@
         </section>
         <footer><!--footer-->
             <div class="container">
-                <div class="row text-center colorWhite pdBot">
+                <div class="row colorWhite pdBot">
                     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                        <p>Visit Us</p><!--visit-->
+                        <a name="contact"></a><p class="text-center textSizmid">Visit Us</p><!--visit-->
                         <hr>
                         <ul>
-                            <li class="pdBot"> <i class="fa fa-instagram fa-lg" aria-hidden="true">10 Lorem ipsum</i></li>
-                            <li class="pdBot"><i class="fa fa-search fa-lg" aria-hidden="true">84938 Mannheim</i></li>
-                            <li class="pdBot"><i class="fa fa-flag-o fa-lg" aria-hidden="true">Germany</i></li>
+                            <li class="pdBot"> <i class="fa fa-instagram" aria-hidden="true"> 10 Lorem ipsum</p></i></li>
+                            <li class="pdBot"><i class="fa fa-search" aria-hidden="true"> 84938 Mannheim</p></i></li>
+                            <li class="pdBot"><i class="fa fa-flag-o" aria-hidden="true"> Germany</p></i></li>
                         </ul>
                     </div>
                      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                        <p>Write Us</p><!--write-->
+                        <p class="text-center textSizmid">Write Us</p><!--write-->
                         <hr>
                         <ul>
-                            <li class="pdBot"><i class="fa fa-mobile fa-lg" aria-hidden="true">+18 384 485 833 847</i></li>
-                            <li class="pdBot"><i class="fa fa-mail-forward fa-lg" aria-hidden="true">info@fabianbentz.de</i></li>
-                            <li class="pdBot"><i class="fa fa-instagram fa-lg" aria-hidden="true">+18 384 485 833 847</i></li>
+                            <li class="pdBot"><i class="fa fa-mobile fa-2" aria-hidden="true"> +18 384 485 833 847</p></i></li>
+                            <li class="pdBot"><i class="fa fa-mail-forward fa-2" aria-hidden="true"> info@fabianbentz.de</p></i></li>
+                            <li class="pdBot"><i class="fa fa-instagram fa-2" aria-hidden="true"> +18 384 485 833 847</p></i></li>
                         </ul>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                        <p>Newsletter</p><!--Newsletter-->
-                        <hr>
-                        <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
-                        <input type="text" class="form-control" placeholder="Enter email">
-                        <button class="">Subscribe Now!</button><!--boton-->
+                        <div class="text-center">
+                            <p class=" textSizmid">Newsletter</p><!--Newsletter-->
+                            <hr>
+                            <div class="input-group margin-bottom-sm text-center">
+                                <span class="input-group-addon colorOrang"><i class="fa fa-envelope-o fa-fw"></i></span>
+                                <input class="form-control" type="text" placeholder="Email address">
+                            </div>
+                            <button class="btn">Subscribe Now!</button><!--boton-->
+                        </div>
                     </div>
                 </div>
                 <div class="row">

@@ -3,6 +3,7 @@
 * {
 	font-family: 'Roboto';
 }
+
 /*acomodo*/
 .pdBot {
 	padding-bottom: 2%;
@@ -17,7 +18,19 @@
 	padding-top: 10%;
 }
 .pdLados {
-	padding: 0 5% 0 5%;
+	padding: 0 5%;
+}
+.pdRL10{
+	padding: 0 10%;
+}
+.pdL5{
+	padding-left: 5%;
+}
+.pdR3{
+	padding-right: 3%;
+}
+.pad5{
+	padding: 5%;
 }
 .mgTop {
 	margin-top: 5%;
@@ -28,10 +41,26 @@
 .mgBot {
 	margin-bottom: 10%;
 }
+.mgTop2{
+	margin-top: 2%;
+}
+.mgL25{
+	margin-left: 25%;
+}
+.mgR20{
+	margin-right: 15%;
+}
+.alinear {
+	display: inline-block;
+}
+/*texto*/
+.textSizmid{
+	font-size: 130%;
+}
 /*header*/
 
 .bgColorGre{
-	background-color: green;
+	background-color: #25A75F;
 	
 }
 .colorWhite {
@@ -45,19 +74,15 @@
 /*seccion titulo sup.*/
 .fondoTitulo {
 	background-image: url(../img/carousel-bg.jpg);
-	background-size: 100%;
+	background-size: 100% 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
-	height: 400px;
-	padding-top: 10%;
+	height: 500px;
+	padding-top: 15%;
+	margin-top: -20px;
 }
 
-.infiniteCarousel {
-    box-shadow: 0px 3px 3px #333;
-}
-.ic_left_nav, .ic_right_nav {
-    display: none;
-}
 /*seccion paleta colores*/
 
 .cuaSize {
@@ -69,7 +94,7 @@
 	height: 80px;
 }
 .color69 {
-	background-color: #69D2E7;
+ 	background-color: #69D2E7;
 }
 .colorA7 {
 	background-color: #A7DBDB;
@@ -161,6 +186,9 @@ hr {
 	height: auto;
 }
 /*img*/
+.imgTamAbout{
+	width: 100%;
+}
 a.opacidad img {
  
   opacity: 1.0;
@@ -194,7 +222,7 @@ a.opacidad:hover img {
 }
 /*seccion What*/
 .bgGreen {
-	background-color: green;
+	background-color: #32BB59;
 }
 .fondoIcono {
 	background-image: url(../img/icon-bg.png);
@@ -203,11 +231,15 @@ a.opacidad:hover img {
 	width: 50%;
 	padding: 5%;
 }
-.fondoHold:holder {
 
-}
 .texmid {
 	font-size: 150%;
+}
+.imgrotate:hover{
+	transform:  rotate(45deg)
+}
+.hoverbackg:hover{
+	background-color: #0B3861;
 }
 /*OUR awesome*/
 /*iconos*/
@@ -220,12 +252,12 @@ ul.iconos li {
 	border: solid green 1px;
 }
 .bg-brown {
-	background-color: brown;
+	background-color: #AF6437;
 	padding: 2%;
 	margin-bottom: 0 !important;
 }
 .bg-green {
-	background-color: green;
+	background-color: #32BB59;
 	padding: 2%;
 	margin-top: 0 !important;
 }
@@ -235,11 +267,14 @@ ul.iconos li {
 	margin-top: 0 !important;
 	margin-bottom: 0 !important;
 }
+.moveTopHov:hover{
+	margin-top: -25px;
+}
 span {
 	font-size: 300%;
 }
 .btnGrey {
-	background-color: grey;
+	background-color: #565454;
 }
 /*seccion What our clients*/
 blockquote {
@@ -265,6 +300,38 @@ ul.icon li {
 }
 /*footer*/
 footer {
-	background-color: green;
+	background-color: #25A75F;
 	padding-top: 5%;
+}
+.colorOrang{
+	color: orange;
+}
+
+
+
+@media (min-width : 200px) and (max-width : 990px) {
+	.cuasizemid {
+		width: 90%;
+		height: 80px;
+		margin-left: 7%;
+	}
+	.mgR20{
+		margin-right: 5%;
+	}
+}
+
+@media (min-width : 630px) and (max-width : 989px) {
+	.fondoIcono {
+		background-image: url(../img/icon-bg.png);
+		background-repeat: no-repeat;
+		height: 120px;
+		width: 40%;
+		padding: 2%;
+	}
+	.mgL25{
+		margin-left: 30%;
+	}
+	.mgR20{
+		margin-right: 5%;
+	}
 }
